@@ -22,9 +22,9 @@ interface EntityContract
     /**
      * Get the creation timestamp of the entity.
      *
-     * @return string
+     * @return string|null
      */
-    public function getCreatedAt(): string;
+    public function getCreatedAt(): ?string;
 
     /**
      * Set the creation timestamp of the entity.
@@ -37,9 +37,9 @@ interface EntityContract
     /**
      * Get the last update timestamp of the entity.
      *
-     * @return string
+     * @return string|null
      */
-    public function getUpdatedAt(): string;
+    public function getUpdatedAt(): ?string;
 
     /**
      * Set the last update timestamp of the entity.
