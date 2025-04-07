@@ -1,0 +1,19 @@
+{
+    "name": "pektiyaz/repository-contracts",
+    "description": "Collection of repository contracts",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pektiyaz\\RepositoryContracts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pektiyaz Talibov",
+            "email": "pektiyaztalibov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
