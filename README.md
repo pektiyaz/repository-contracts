@@ -13,6 +13,13 @@ These contracts provide a foundation for working with data access layers in a de
 
 ---
 
+## 📦 Installation
+You can install the Repository Contracts package using Composer:
+```shell
+composer require pektiyaz/repository-contracts
+```
+
+
 ## 📦 Interfaces
 
 ### `RepositoryContract`
